@@ -6,13 +6,11 @@
     android:layout_height="match_parent"
     tools:context="com.fit.djuka.learnmore.Prvi">
 
-    <EditText
-        android:id="@+id/editText"
+    <TextView
+        android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:ems="10"
-        android:inputType="textPersonName"
-        android:text="PRVI"
-        tools:layout_editor_absoluteX="71dp"
-        tools:layout_editor_absoluteY="41dp" />
+        android:text="TextView"
+        tools:layout_editor_absoluteX="86dp"
+        tools:layout_editor_absoluteY="160dp" />
 </android.support.constraint.ConstraintLayout>

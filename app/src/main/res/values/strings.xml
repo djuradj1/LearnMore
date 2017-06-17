@@ -1,3 +1,13 @@
 <resources>
     <string name="app_name">LearnMore</string>
+
+    <string-array name="title">
+
+        <item>I Uvod u racunarkse mreze</item>
+        <item>II Racunarkse mreze i Internet</item>
+        <item>III Teorijski osnovi prenosa podataka</item>
+        <item>IV Fizicki medijumi za prenos podataka</item>
+        <item>V Slov veze podataka</item>
+
+    </string-array>
 </resources>

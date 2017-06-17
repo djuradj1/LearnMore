@@ -72,6 +72,7 @@ public class MainActivity extends Activity {
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
 
                 Intent intent = new Intent(MainActivity.this , Prvi.class);
+                intent.putExtra("title",lv.getItemAtPosition(position).toString());
                 startActivity(intent);
             }
         });
